@@ -1,0 +1,5 @@
+development:
+  adapter: sqlite3
+  database: db/songs_1950-2020.db
+  pool: 5
+  timeout: 5000
