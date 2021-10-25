@@ -1,33 +1,37 @@
-# Project Requirements
+# 🎙️ HummingEffect  (back-end)
+
+![MainLogo](https://user-images.githubusercontent.com/33072677/138638571-b35e6f68-c3c0-4a10-a9ca-72c6498da6c5.jpg)
+
+<br>
+
+## 🚧 Project Status 
+Currently under revision using [React Native](https://reactnative.dev/)
+
+<br>
+
+## Welcome!
+
+HummingEffect is a fun guessing game app for hummed songs. This game app lets players to choose what songs are included and displayed based on decade. The game is simple. A player (hummer) hums or whistles one of the four songs presented on the screen and other players (guessers) try to guess it correctly. The game is set up to have at least three players and allows players to choose a number of turns to play. The final scoreboard is displayed at the end of the game. HummingEffect can be played with your friends, family, or coworkers!
+
+<br>
+
+## 📷 View [Demo](https://youtu.be/UzNjQaHHbcA) here
+
+<br>
 
 
-Write some stuff about your project here 🙂
+## Technology - Back-end
 
-    - What's your app?
-    - What routes can a client make a request to and what do they need to make that request? What should a client expect as a response from each route?
-    - Known bugs
-    - Contributors
-    - etc.
+- [Ruby](https://github.com/ruby/ruby) (Rake gem)
 
-### Getting Started
-1. Clone down this repository.  
-2. A basic rack app is located in the backend folder. 
-3. First run _bundle_ in your backend folder to install your gems
-4. application.rb has an example GET route, replace this route with routes for your project! 
 
-**Start your server with:**
-` shotgun --port=9292 `
+<br>
 
-> **Note:** This will run your server on port http://localhost:9292. 
-> [shotgun](https://github.com/rtomayko/shotgun) is a ruby gem that will automatically reload your rack server. You may still need to refresh your browser to see changes. 
+## Installation
 
-5. Your backend and your frontend should be in two different repositories. Create a new repository with a react app for your frontend. 
+1. Fork and clone this repository to your local computer
+2. cd into the project and run bundle install. 
+3. run rake db:setup to seed the database
 
-**Fetch example**
->  Your react app should make fetch requests to your rack backend! 
+<br>  
 
-```js
-   fetch("http://localhost:9292/test")
-    .then(res => res.json())
-    .then(console.log)
-```
